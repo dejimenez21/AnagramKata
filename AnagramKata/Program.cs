@@ -17,7 +17,7 @@ namespace AnagramKata
             //Console.WriteLine(w+u);
             //Console.ReadKey();
             //return;
-            string path = Path.Combine(Directory.GetParent(Directory.GetCurrentDirectory()).Parent.Parent.FullName, "WordsFiles", $"{args[0]}.txt");
+            string path = $@"WordsFiles\{args[0]}.txt";
             AnagramSelector selector = new AnagramSelector();
 
             List<string> words = new List<string>();

@@ -10,7 +10,7 @@ namespace AnagramKata
     {
         static void Main(string[] args)
         {
-            
+          
         }
     }
 }

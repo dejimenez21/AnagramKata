@@ -20,7 +20,7 @@ namespace AnagramKataTest
 
 
 
-            CollectionAssert.AreEquivalent(new List<string>(), result);
+            CollectionAssert.AreEqual(new List<string>(), result);
 
         }
 
@@ -36,7 +36,7 @@ namespace AnagramKataTest
 
 
 
-            CollectionAssert.AreEquivalent(new List<string>(), result);
+            CollectionAssert.AreEqual(new List<string>(), result);
 
         }
 
@@ -46,17 +46,46 @@ namespace AnagramKataTest
             //Instanciando clase de selector de anagramas
             AnagramSelector selector = new AnagramSelector();
             //Creando lista vacia
-            List<string> words = new List<string>() { "HOLA", "MUNDO" };
+            List<string> words = new List<string>() { "HOLA", "UNDO" };
 
             List<string> result = selector.Group(words);
 
 
 
-            CollectionAssert.AreEquivalent(new List<string>(), result);
+            CollectionAssert.AreEqual(new List<string>(), result);
 
         }
 
+        [TestMethod]
+        public void WhenIs2AnagramsReturnsALineWith2Words()
+        {
+            //Instanciando clase de selector de anagramas
+            AnagramSelector selector = new AnagramSelector();
+            //Creando lista vacia
+            List<string> words = new List<string>() { "SACO", "CASO" };
 
-        
+            List<string> result = selector.Group(words);
+            List<string> expected = new List<string>() { "SACO CASO " };
+
+            CollectionAssert.AreEqual(expected, result);
+
+        }
+
+        [TestMethod]
+        public void WhenIs4WordsWith2SetsOfAnagramsReturns2LineWith2Words()
+        {
+            //Instanciando clase de selector de anagramas
+            AnagramSelector selector = new AnagramSelector();
+            //Creando lista vacia
+            List<string> words = new List<string>() { "SACO", "CASO", "FRESHER", "REFRESH" };
+
+            List<string> result = selector.Group(words);
+            List<string> expected = new List<string>() { "SACO CASO ", "FRESHER REFRESH " };
+
+
+            CollectionAssert.AreEqual(expected, result);
+
+        }
+
     }
 }

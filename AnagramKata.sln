@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29409.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnagramKata", "AnagramKata\AnagramKata.csproj", "{3781B57B-6FEC-41C9-9C69-D71E3B53EE04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnagramKataTest", "AnagramKataTest\AnagramKataTest.csproj", "{4B63EA4C-27CC-40F8-B58C-1F8586CC69F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3781B57B-6FEC-41C9-9C69-D71E3B53EE04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3781B57B-6FEC-41C9-9C69-D71E3B53EE04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3781B57B-6FEC-41C9-9C69-D71E3B53EE04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3781B57B-6FEC-41C9-9C69-D71E3B53EE04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B63EA4C-27CC-40F8-B58C-1F8586CC69F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B63EA4C-27CC-40F8-B58C-1F8586CC69F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B63EA4C-27CC-40F8-B58C-1F8586CC69F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B63EA4C-27CC-40F8-B58C-1F8586CC69F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2C4F8B94-3410-47BF-A826-FA1EA2C0A699}
+	EndGlobalSection
+EndGlobal

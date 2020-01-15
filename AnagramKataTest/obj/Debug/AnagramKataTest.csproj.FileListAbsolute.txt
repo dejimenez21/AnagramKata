@@ -1,0 +1,16 @@
+C:\Users\dejim\Source\Repos\AnagramKata2\AnagramKataTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\dejim\Source\Repos\AnagramKata2\AnagramKataTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\dejim\Source\Repos\AnagramKata2\AnagramKataTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\dejim\Source\Repos\AnagramKata2\AnagramKataTest\bin\Debug\AnagramKataTest.dll
+C:\Users\dejim\Source\Repos\AnagramKata2\AnagramKataTest\bin\Debug\AnagramKataTest.pdb
+C:\Users\dejim\Source\Repos\AnagramKata2\AnagramKataTest\bin\Debug\AnagramKata.exe
+C:\Users\dejim\Source\Repos\AnagramKata2\AnagramKataTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\dejim\Source\Repos\AnagramKata2\AnagramKataTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\dejim\Source\Repos\AnagramKata2\AnagramKataTest\bin\Debug\AnagramKata.pdb
+C:\Users\dejim\Source\Repos\AnagramKata2\AnagramKataTest\bin\Debug\AnagramKata.exe.config
+C:\Users\dejim\Source\Repos\AnagramKata2\AnagramKataTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\dejim\Source\Repos\AnagramKata2\AnagramKataTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\dejim\Source\Repos\AnagramKata2\AnagramKataTest\obj\Debug\AnagramKataTest.csprojAssemblyReference.cache
+C:\Users\dejim\Source\Repos\AnagramKata2\AnagramKataTest\obj\Debug\AnagramKataTest.csproj.CopyComplete
+C:\Users\dejim\Source\Repos\AnagramKata2\AnagramKataTest\obj\Debug\AnagramKataTest.dll
+C:\Users\dejim\Source\Repos\AnagramKata2\AnagramKataTest\obj\Debug\AnagramKataTest.pdb

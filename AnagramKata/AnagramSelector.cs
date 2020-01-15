@@ -8,6 +8,9 @@ namespace AnagramKata
 {
     public class AnagramSelector
     {
-        
+        public List<string> Group(List<string> words)
+        {
+            return new List<string>();
+        }
     }
 }

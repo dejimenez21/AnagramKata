@@ -1,0 +1,6 @@
+C:\Users\dejim\Source\Repos\AnagramKata2\AnagramKata\bin\Debug\AnagramKata.exe.config
+C:\Users\dejim\Source\Repos\AnagramKata2\AnagramKata\bin\Debug\AnagramKata.exe
+C:\Users\dejim\Source\Repos\AnagramKata2\AnagramKata\bin\Debug\AnagramKata.pdb
+C:\Users\dejim\Source\Repos\AnagramKata2\AnagramKata\obj\Debug\AnagramKata.csprojAssemblyReference.cache
+C:\Users\dejim\Source\Repos\AnagramKata2\AnagramKata\obj\Debug\AnagramKata.exe
+C:\Users\dejim\Source\Repos\AnagramKata2\AnagramKata\obj\Debug\AnagramKata.pdb

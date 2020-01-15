@@ -23,5 +23,21 @@ namespace AnagramKataTest
             CollectionAssert.AreEquivalent(new List<string>(), result);
 
         }
+
+        [TestMethod]
+        public void WhenListIs1WordReturnsNolines()
+        {
+            //Instanciando clase de selector de anagramas
+            AnagramSelector selector = new AnagramSelector();
+            //Creando lista vacia
+            List<string> words = new List<string>() { "HOLA"};
+
+            List<string> result = selector.Group(words);
+
+
+
+            CollectionAssert.AreEquivalent(new List<string>(), result);
+
+        }
     }
 }

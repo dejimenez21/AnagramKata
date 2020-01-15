@@ -20,7 +20,19 @@ namespace AnagramKata
             string path = Path.Combine(Directory.GetParent(Directory.GetCurrentDirectory()).Parent.Parent.FullName, "WordsFiles", $"{args[0]}.txt");
             AnagramSelector selector = new AnagramSelector();
 
-            List<string> words = File.ReadAllLines(path, Encoding.Default).ToList();
+            List<string> words = new List<string>();
+
+            try
+            {
+                words = File.ReadAllLines(path, Encoding.Default).ToList();
+
+            }
+            catch(FileNotFoundException e)
+            {
+                Console.WriteLine($"Error: El archivo {e.FileName} no existe.");
+                Console.ReadKey();
+                return;
+            }
             
 
             uint setCounter = 1;

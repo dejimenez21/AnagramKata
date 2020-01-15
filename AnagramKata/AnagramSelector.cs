@@ -73,9 +73,10 @@ namespace AnagramKata
             foreach (var group in anagramsGroups)
             {
                 StringBuilder builder = new StringBuilder();
-                if (group.Count() < 2)
+                var distinctGroup = group.Distinct();
+                if (distinctGroup.Count() < 2)
                     continue;
-                foreach (string word in group)
+                foreach (string word in distinctGroup)
                 {
                     builder.Append(word + " ");
                 }
@@ -85,26 +86,7 @@ namespace AnagramKata
             return result;
         }
 
-        //Metodo en revision para ser eliminado
-        public bool AreAnagrams(string first, string second)
-        {
-           
-
-            if(first.Length!=second.Length || first == second)
-                return false;
-
-            ulong firstProduct = 1;
-            ulong secondProduct = 1;
-
-            for(int i=0; i<first.Length; i++)
-            {
-                firstProduct *= (ulong)map[first[i]];
-                secondProduct *= (ulong)map[second[i]];
-            }
-
-            return firstProduct == secondProduct;
-        }
-
+        
         public ulong CharacterProduct(string word)
         {
             

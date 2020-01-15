@@ -103,5 +103,21 @@ namespace AnagramKataTest
             CollectionAssert.AreEqual(expected, result);
 
         }
+
+        [TestMethod]
+        public void WhenIs6WordsWithEspecialCharsWith2SetsOf3AnagramsReturns1LineWith3Words()
+        {
+            //Instanciando clase de selector de anagramas
+            AnagramSelector selector = new AnagramSelector();
+            //Creando lista vacia
+            List<string> words = new List<string>() { "SÁCÖ", "SHÉRFÜ'R", "FRÜSHÉ'R", "RÉFRÜ'SH", "CÁSÖ", "ÁSCÖ" };
+
+            List<string> result = selector.Group(words);
+            List<string> expected = new List<string>() { "SÁCÖ CÁSÖ ÁSCÖ ", "SHÉRFÜ'R FRÜSHÉ'R RÉFRÜ'SH " };
+
+
+            CollectionAssert.AreEqual(expected, result);
+
+        }
     }
 }

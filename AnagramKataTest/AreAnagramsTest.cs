@@ -41,5 +41,16 @@ namespace AnagramKataTest
 
             Assert.AreEqual(expected, result);
         }
+
+        [TestMethod]
+        public void When6CharsWordsAreAnagramsReturnsTrue()
+        {
+            AnagramSelector selector = new AnagramSelector();
+
+            bool result = selector.AreAnagrams("FRESHER", "REFRESH");
+            bool expected = true;
+
+            Assert.AreEqual(expected, result);
+        }
     }
 }
